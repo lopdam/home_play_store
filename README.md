@@ -14,6 +14,7 @@ Copy Design Play Store, you can have conflict with Image network.
 ### AppBar
 
 '''dart
+
 AppBar _getAppBar() {
     return AppBar(
       backgroundColor: Color(0xFF01875f),
@@ -55,6 +56,7 @@ AppBar _getAppBar() {
 ### Drawer
 
 '''dart
+
 Drawer _getDrawer() {
     return Drawer(
         elevation: 5,
@@ -148,6 +150,7 @@ Drawer _getDrawer() {
 ### UserAccountsDrawerHeader
 
 '''dart
+
 UserAccountsDrawerHeader _getUserHeader() {
     return UserAccountsDrawerHeader(
       onDetailsPressed: () {
@@ -179,6 +182,7 @@ UserAccountsDrawerHeader _getUserHeader() {
 ### BottomNavigationBar
 
 '''dart
+
 class _getBottomNavigationBar extends StatefulWidget {
   @override
   _getBottomNavigationBarState createState() {
