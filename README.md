@@ -13,7 +13,7 @@ Copy Design Play Store, you can have conflict with Image network.
 
 ### AppBar
 
-'''dart
+```dart
 
 AppBar _getAppBar() {
     return AppBar(
@@ -52,10 +52,10 @@ AppBar _getAppBar() {
     ),
     );
   }
-'''
+```
 ### Drawer
 
-'''dart
+```dart
 
 Drawer _getDrawer() {
     return Drawer(
@@ -146,10 +146,10 @@ Drawer _getDrawer() {
           ],
         ));
   }
-'''
+```
 ### UserAccountsDrawerHeader
 
-'''dart
+```dart
 
 UserAccountsDrawerHeader _getUserHeader() {
     return UserAccountsDrawerHeader(
@@ -178,10 +178,10 @@ UserAccountsDrawerHeader _getUserHeader() {
       ],
     );
   }
-'''
+```
 ### BottomNavigationBar
 
-'''dart
+```dart
 
 class _getBottomNavigationBar extends StatefulWidget {
   @override
@@ -245,4 +245,4 @@ class _getBottomNavigationBarState extends State<_getBottomNavigationBar> {
     );
   }
 }
-'''
+```
